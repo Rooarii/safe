@@ -26,15 +26,41 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <Banner />
-
                 <div id="main">
+                    
+                </div>
+                
+                <div id="main">
+                <section id="two">
+                        <div className="inner">
+                            <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                <h2>A propos</h2>
+                            </header>
+                            <p className="justify">Safe vous propose des solutions d’accompagnement facilitant l’écomobilité en Provence !</p>
+                            <p className="justify">Nous souhaitons participer à la transition de notre société, en proposant des alternatives durables de tourisme et de mobilité et ainsi réduire notre impact sur l’environnement !</p>
+                            <p className="justify">Comment ?
+                            De la pédagogie des enjeux climatiques vers les solutions concrètes et accessibles en éco-mobilité. Safe offre un accompagnement pour les particuliers, les collectivités et les entreprises :</p>
+                            <p className="justify"> Offre tout public :
+                            Sensibilisation en partenariat avec MyC02 et la Fresque du Climat.
+                            Accompagnement et cours de VTT et de vélo électrique.
+                            > Accompagnement des collectivités :
+                            Développement de solutions d’éco-tourisme en Provence.
+                            Étude et conseil pour l’élaboration de plans de mobilité.
+                            > Accompagnement des entreprises :
+                            Organisation d’évènements et de séminaires.
+                            Mise en place du forfait de mobilité durable via le Vélotaf.</p>
+                            {/* <ul className="actions">
+                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                            </ul> */}
+                        </div>
+                    </section>
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Aliquam</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
@@ -43,7 +69,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        {/* <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Magna</h3>
                                 <p>Lorem etiam nullam</p>
@@ -70,9 +96,9 @@ class HomeIndex extends React.Component {
                                 <p>Feugiat amet tempus</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        </article> */}
                     </section>
-                    <section id="two">
+                    {/* <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -82,7 +108,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>
