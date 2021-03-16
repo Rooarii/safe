@@ -10,6 +10,8 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import kids from '../assets/images/kids.jpg'
+import adults from '../assets/images/adults.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -31,7 +33,7 @@ class HomeIndex extends React.Component {
                 </div>
                 
                 <div id="main">
-                <section id="two">
+                <section id="one">
                         <div className="inner">
                             <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                                 <h2>A propos</h2>
@@ -43,10 +45,10 @@ class HomeIndex extends React.Component {
                             <p className="justify"> Offre tout public :
                             Sensibilisation en partenariat avec MyC02 et la Fresque du Climat.
                             Accompagnement et cours de VTT et de vélo électrique.
-                            > Accompagnement des collectivités :
+                            Accompagnement des collectivités :
                             Développement de solutions d’éco-tourisme en Provence.
                             Étude et conseil pour l’élaboration de plans de mobilité.
-                            > Accompagnement des entreprises :
+                            Accompagnement des entreprises :
                             Organisation d’évènements et de séminaires.
                             Mise en place du forfait de mobilité durable via le Vélotaf.</p>
                             {/* <ul className="actions">
@@ -54,20 +56,28 @@ class HomeIndex extends React.Component {
                             </ul> */}
                         </div>
                     </section>
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                    <section id="two">
+                        <div className="inner">
+                            <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                <h2>Cet été</h2>
+                            </header>
+                            <p className="justify">Safe vous propose pour cet été de découvrir à vélo le nord de la métropole d'Aix MArseille Provence</p>
+                        </div>
+                    </section>
+                    <section id="two" className="tiles">
+                        <article style={{backgroundImage: `url(${adults})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Voyage en itinérance</h3>
+                                <p></p>
                             </header>
                             <Link className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${kids})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Découverte à la journée</h3>
+                                <p></p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link className="link primary"></Link>
                         </article>
                         {/* <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">

@@ -4,14 +4,14 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form name="Contact Form" method="POST" data-netlify="true">    
                     <div className="field half first">
                         <label htmlFor="name">Nom</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email"  required/>
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
