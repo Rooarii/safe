@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Safe Ecomobilité",
+    author: "Robin Allory",
+    description: "SAFE déploie de solutions de tourisme éco-responsable pour partir l’esprit tranquille en groupe ou en famille tout en réduisant notre impact sur l’environnement."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Safe Ecomobilité',
+        short_name: 'Safe',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -19,7 +20,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Safe Ecomobilité"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -38,30 +39,12 @@ class HomeIndex extends React.Component {
                             <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                                 <h2>A propos</h2>
                             </header>
-                            <p className="justify">Safe vous propose des solutions d’accompagnement facilitant l’écomobilité en Provence !</p>
-                            <p className="justify">Nous souhaitons participer à la transition de notre société, en proposant des alternatives durables de tourisme et de mobilité et ainsi réduire notre impact sur l’environnement !</p>
-                            <p className="justify">Comment ?
-                            De la pédagogie des enjeux climatiques vers les solutions concrètes et accessibles en éco-mobilité. Safe offre un accompagnement pour les particuliers, les collectivités et les entreprises :</p>
-                            <p className="justify"> Offre tout public :
-                            Sensibilisation en partenariat avec MyC02 et la Fresque du Climat.
-                            Accompagnement et cours de VTT et de vélo électrique.
-                            Accompagnement des collectivités :
-                            Développement de solutions d’éco-tourisme en Provence.
-                            Étude et conseil pour l’élaboration de plans de mobilité.
-                            Accompagnement des entreprises :
-                            Organisation d’évènements et de séminaires.
-                            Mise en place du forfait de mobilité durable via le Vélotaf.</p>
-                            {/* <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul> */}
-                        </div>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-                                <h2>Cet été</h2>
-                            </header>
-                            <p className="justify">Safe vous propose pour cet été de découvrir à vélo le nord de la métropole d'Aix MArseille Provence</p>
+                            <p className="justify" style={{textAlign:"justify"}}>SAFE déploie de solutions de tourisme éco-responsable pour partir l’esprit tranquille en groupe ou en famille tout en réduisant notre impact sur l’environnement ! 
+                            Dès cet été Explorez notre belle Provence et participez à une journée ou un séjour à la découverte Patrimoine & gastronomie. Plusieurs formules sont en cours de déploiement pour juillet à septembre 2021 avec SAFE. N'hésitez pas à nous contacter, pour être tenu informé.
+</p>
+                            <ul className="actions">
+                                <li><Link to="#contact" className="button next">Ca m'interesse</Link></li>
+                            </ul>
                         </div>
                     </section>
                     <section id="two" className="tiles">
@@ -79,35 +62,17 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link className="link primary"></Link>
                         </article>
-                        {/* <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article> */}
                     </section>
+                    <Contact></Contact>
+                    
+                    {/* <section id="two">
+                        <div className="inner">
+                            <header className="major">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                <h2>Cet été</h2>
+                            </header>
+                            <p className="justify">Explorez notre belle Provence et participez à une journée ou un séjour à la découverte Patrimoine & gastronomie.</p>
+                        </div>
+                    </section> */}
                     {/* <section id="two">
                         <div className="inner">
                             <header className="major">

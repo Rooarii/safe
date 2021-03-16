@@ -5,6 +5,7 @@ const Banner = (props) => (
         <div className="inner">
             <header className="major">
                 <h1>SAFE</h1>
+                <h2>Découvrez la Provence à vélo.</h2>
             </header>
             <div className="content">
                

@@ -17,12 +17,13 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 75vh;
+		height: 50vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		text-align: center;
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -41,7 +42,8 @@
 		}
 
 		h1 {
-			font-size: 3.25em;
+			font-size: 5em;
+			font-weight: bold;
 		}
 
 		> .inner {
@@ -75,9 +77,11 @@
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
 				margin: 0 0 _size(element-margin) 0;
+				text-align: center;
+				flex-direction: column;
 
 				> * {
-					margin-left: 1.5em;
+					margin-top: 1.5em;
 					margin-bottom: 0;
 				}
 
@@ -95,7 +99,7 @@
 		}
 
 		&.major {
-			height: 55vh;
+			height: 45vh;
 			min-height: 30em;
 			max-height: 50em;
 

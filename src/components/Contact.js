@@ -4,6 +4,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
+                <h3>Contact</h3>
+                <p>Pour Être recontacté ou demander un devis</p>
                 <form name="Contact Form" method="POST" data-netlify="true"> 
                     <input type="hidden" name="form-name" value="Contact Form" />   
                     <div className="field half first">
